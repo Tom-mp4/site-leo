@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+@font-face {
+    font-family: 'consolat';
+    src: url('fonts/consolab.ttf');
+}
+
+:root {
+    --black: #1c1c1c;
+    --grey: darkgrey;
+    --white: whitesmoke;
+    --purple: #9797e6;
+    --lite-purple: #c9c9ff;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    cursor: none;
+    overflow: hidden;
+}
+
+.cursor {
+    position: absolute;
+    pointer-events: none;
+    margin-top: 16px;
+    margin-left: 18px;
+    z-index: 5;
+}
+
+.cursor::before {
+    content: '';
+    position: absolute;
+}
+
+/** Header **/
+
+body {
+    background: url("img/background.png") no-repeat;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10% 0;
+
+}
+
+.logo {
+    width: 150px;
+    cursor: none;
+}
+
+.nav_links a,
+.contact {
+    font-family: 'consolat', sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    color: var(--white);
+    text-decoration: none;
+    cursor: none;
+}
+
+.nav_links {
+    list-style: none;
+    display: flex;
+}
+
+.nav_links li {
+    padding: 40px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    filter: blur(1px);
+}
+
+.contact_img {
+    width: 200px;
+    transition: all 600ms ease 0s;
+}
+
+.contact_img:hover {
+    filter: brightness(1.2);
+}

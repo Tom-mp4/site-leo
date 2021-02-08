@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+
+:root {
+    --black: #1c1c1c;
+    --grey: darkgrey;
+    --white: whitesmoke;
+    --purple: #9797e6;
+    --lite-purple: #c9c9ff;
+    --sky-blue: #1e52e6;
+
+}
+
+/**Body**/
+
+.presentation_text {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+
+.title {
+    font-family: 'consolat', sans-serif;
+    text-align: center;
+    color: var(--white);
+    font-size: 50px;
+    padding-top: 1.5em;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    text-shadow: 2px 2px 5px #1c1c1c;
+}
+
+.description {
+    font-family: 'consolat', sans-serif;
+    color: var(--white);
+    text-align: center;
+    font-size: 18px;
+    padding-left: 3%;
+    text-shadow: 2px 2px 5px #1c1c1c;
+}
+
+
+
+/**Footer**/
+
+
+
+

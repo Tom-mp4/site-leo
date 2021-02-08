@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'carlito';
+    src: url('fonts/Carlito_Bold.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+:root {
+    --black: #1c1c1c;
+    --grey: darkgrey;
+    --white: whitesmoke;
+    --purple: #9797e6;
+    --lite-purple: #c9c9ff;
+
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: var(--black);
+    font-family: 'Amiri', sans-serif;
+    overflow: hidden;
+}
+
+
+
+.access_img {
+    width: 15%;
+    position:fixed;
+    pointer-events: none;
+    bottom:20px;
+    left:42%;
+    z-index:1;
+}
+
+.background_clouds {
+    width: 100%;
+    position:fixed;
+    pointer-events: none;
+    bottom:0;
+    right:0;
+    z-index:0;
+}
+
+.welcome_icon {
+    width: 50%;
+    position:fixed;
+    pointer-events: none;
+    bottom:5%;
+    right:25%;
+    z-index:2;
+}
+
+

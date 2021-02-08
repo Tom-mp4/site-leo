@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'consolat';
+    src: url('../fonts/consolab.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Amiri:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+:root {
+    --black: #1c1c1c;
+    --grey: darkgrey;
+    --white: whitesmoke;
+    --purple: #9797e6;
+    --lite-purple: #c9c9ff;
+
+}
+
+
+/**Body**/
+
+.shop_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 25%;
+}
+
+.item_image {
+    width: 300px;
+    transition: all 500ms ease 0s;
+    position: fixed;
+}
+
+.item_image:hover {
+    opacity: 0;
+}
+
+.second_item_image {
+    width: 300px;
+}
+
+.item_title {
+    color: var(--white);
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin: 17px;
+    font-family: 'consolat', sans-serif;
+}
+
+.instagram_text {
+    text-align: center;
+    font-family: 'consolat', sans-serif;
+    font-size: 14px;
+    color: var(--black);
+    margin-bottom: 20px;
+}
+
+.instagram_link {
+    color: var(--black);
+    cursor: none;
+}
