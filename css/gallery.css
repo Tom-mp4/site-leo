@@ -77,7 +77,6 @@ img{
 }
 
 .interieur_diapo{
-
     display: flex;
     width: 400%;
     transition: transform .6s ease-in-out
@@ -90,46 +89,35 @@ img{
 
 }
 
-.description span{
 
-    position: absolute;
-    left: 0;
-    top: 2%;
-    font-size: 75%;
-    display: flex;
-    padding: .5rem;
-    justify-content: center;
-    color: white;
-    background: hsla(0,0%,0%,.35)
-
+#photo_1 {
+    cursor: none;
 }
 
-
-#votre_id1:target ~ .cadre_diapo .interieur_diapo{
+#photo_1:target ~ .cadre_diapo .interieur_diapo{
 
     transform:translatex(0)
 
-}/*image 1*/
+}
 
-#votre_id2:target ~ .cadre_diapo .interieur_diapo{
+#photo_2:target ~ .cadre_diapo .interieur_diapo{
 
     transform:translatex(-25%)
 
-}/*image 2*/
+}
 
-#votre_id3:target ~ .cadre_diapo .interieur_diapo{
+#photo_3:target ~ .cadre_diapo .interieur_diapo{
 
     transform:translatex(-50%)
 
-}/*image 3*/
+}
 
-#votre_id4:target ~ .cadre_diapo .interieur_diapo{
+#photo_4:target ~ .cadre_diapo .interieur_diapo{
 
     transform:translatex(-75%)
 
-}/*image 4*/
+}
 
-/
 .navigation_diapo{
 
     display: flex;
@@ -140,7 +128,6 @@ img{
 }
 
 .navigation_diapo li {
-
     padding: .25rem;
 
 }

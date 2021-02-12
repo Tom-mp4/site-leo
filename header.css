@@ -19,7 +19,7 @@ body {
     padding: 0;
     height: 100vh;
     cursor: none;
-    overflow: hidden;
+
 }
 
 .cursor {
@@ -34,6 +34,11 @@ body {
     content: '';
     position: absolute;
 }
+
+.clicked_cursor {
+    display: none;
+}
+
 
 /** Header **/
 
